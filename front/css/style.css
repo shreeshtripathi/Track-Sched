@@ -1,0 +1,85 @@
+body {
+    background-color: lightsteelblue;
+    /* background-color: #122946;  */
+    /* background: linear-gradient(90deg, #14c4c7 0%, #06245c 55%, #122946 100%); */
+}
+
+
+header {
+    /* background-color: #122946; */
+    background-color: #122946;
+    width: 100%;
+    position: fixed;
+}
+
+.top_info {
+    padding: 1%;
+    display: inline-flex;
+}
+
+#top_icon {
+    color: whitesmoke;
+}
+
+.icon_sec {
+    display: inline-flex;
+    padding-right: 50%
+}
+
+.top_info h2 {
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.gr-bg {
+    /* background: rgb(252, 205, 128); */
+    /* background: #14c4c7; */
+    /* background: linear-gradient(90deg, rgba(252, 205, 128, 1) 0%, rgba(209, 122, 142, 1) 55%, rgba(220, 159, 174, 1) 100%); */
+    /* background: linear-gradient(90deg, #14c4c7 0%, #06245c 55%, #122946 100%); */
+    /* background-color: whitesmoke; */
+    color: #122946;
+    /* background-color: #122946; */
+}
+
+/* Login Button Design */
+
+.btn {
+    display: block;
+    width: 150%;
+    margin-top: 5%;
+    padding: 10px;
+    border: 0;
+    /* color: #fff; */
+    color: #122946;
+    /* font-weight: bolder; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-right: 20%;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+
+/* .op {
+    color: whitesmoke;
+} */
+
+.login-option {
+    padding-left: 25%;
+}
